@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\EclipseWorks.API.props" />
+</Project>

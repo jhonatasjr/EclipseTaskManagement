@@ -1,0 +1,155 @@
+[
+  {
+    "ContainingType": "EclipseWorks.API.Controllers.V1.ProjetoController",
+    "Method": "CreateProject",
+    "RelativePath": "api/v1/projeto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projetoDto",
+        "Type": "EclipseWorks.API.Models.ProjetoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EclipseWorks.API.Controllers.V1.ProjetoController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/projeto/{IdProjeto}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdProjeto",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EclipseWorks.API.Controllers.V1.ProjetoController",
+    "Method": "List",
+    "RelativePath": "api/v1/projeto/{IdUsuario}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdUsuario",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EclipseWorks.API.Controllers.V1.RelatorioController",
+    "Method": "MediaTasksCompleted",
+    "RelativePath": "api/v1/relatorio/media-tarefas-concluidas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdUsuario",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EclipseWorks.API.Controllers.V1.TarefaController",
+    "Method": "CreateTask",
+    "RelativePath": "api/v1/tarefa/{IdProjeto}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdProjeto",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "tarefaDTO",
+        "Type": "EclipseWorks.API.Models.TarefaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EclipseWorks.API.Controllers.V1.TarefaController",
+    "Method": "UpdateTask",
+    "RelativePath": "api/v1/tarefa/{IdTarefa}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdTarefa",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "tarefaUpdateDTO",
+        "Type": "EclipseWorks.API.Models.TarefaUpdateDTO",
+        "IsRequired": true
+      },
+      {
+        "Name": "IdUsuario",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EclipseWorks.API.Controllers.V1.TarefaController",
+    "Method": "RemoveTask",
+    "RelativePath": "api/v1/tarefa/{IdTarefa}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdTarefa",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EclipseWorks.API.Controllers.V1.TarefaController",
+    "Method": "AdicionarComentario",
+    "RelativePath": "api/v1/tarefa/{idTarefa}/comentarios",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idTarefa",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "comentarioDTO",
+        "Type": "EclipseWorks.API.Models.ComentarioDTO",
+        "IsRequired": true
+      },
+      {
+        "Name": "IdUsuario",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
