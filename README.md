@@ -14,4 +14,5 @@
 - Expansão da cobertura de testes automatizados para incluir testes de integração.
 
 ## Execução
+- Deve haver pelo menos um usuário na tabela de usuários.
 - docker-compose up -d  

@@ -12,3 +12,4 @@ C:\Users\jhona\Desktop\TESTE\EclipseWorks\EclipseWorks.API\EclipseWorks.Domain\o
 C:\Users\jhona\Desktop\TESTE\EclipseWorks\EclipseWorks.API\EclipseWorks.Domain\obj\Debug\net8.0\EclipseWorks.Domain.pdb
 C:\Users\jhona\Desktop\TESTE\EclipseWorks\EclipseWorks.API\EclipseWorks.Domain\obj\Debug\net8.0\EclipseWorks.Domain.genruntimeconfig.cache
 C:\Users\jhona\Desktop\TESTE\EclipseWorks\EclipseWorks.API\EclipseWorks.Domain\obj\Debug\net8.0\ref\EclipseWorks.Domain.dll
+C:\Users\jhona\Desktop\TESTE\EclipseWorks\EclipseWorks.API\EclipseWorks.Domain\obj\Debug\net8.0\EclipseWorks.Domain.sourcelink.json

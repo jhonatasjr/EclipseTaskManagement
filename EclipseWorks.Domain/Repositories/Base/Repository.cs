@@ -1,7 +1,6 @@
 ﻿using EclipseWorks.Domain.Enums;
 using EclipseWorks.Domain.Models;
 using Microsoft.EntityFrameworkCore;
-using System.Linq.Expressions;
 
 namespace EclipseWorks.Domain.Repositories.Base;
 public class Repository : IRepository
@@ -218,10 +217,17 @@ public class Repository : IRepository
     #region Relatorio
     public decimal CalcularMediaTarefasConcluidas(string idUsuario)
     {
-        // Obter a data de 30 dias atrás
+
+        var usuario = ctx.Usuarios.FirstOrDefault(p => p.Id == idUsuario);
+
+        if (usuario != null)
+            if (usuario.Funcao != Funcao.Gerente)
+            {
+                throw new InvalidOperationException("O relatório pode ser geradp apenas por usuários com uma função específica de \"gerente\".");
+            }
+
         var dataInicio = DateTime.Today.AddDays(-30);
 
-        // Consulta para calcular o número médio de tarefas concluídas por usuário nos últimos 30 dias
         var mediaTarefas = ctx.Tarefas
             .Count(t => t.UsuarioCriacao.Id == idUsuario && t.Status == Status.Concluida && t.DtConclucao >= dataInicio);
 

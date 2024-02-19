@@ -108,3 +108,4 @@ C:\Users\jhona\Desktop\TESTE\EclipseWorks\EclipseWorks.API\EclipseWorks.API\obj\
 C:\Users\jhona\Desktop\TESTE\EclipseWorks\EclipseWorks.API\EclipseWorks.API\obj\Debug\net8.0\EclipseWorks.API.pdb
 C:\Users\jhona\Desktop\TESTE\EclipseWorks\EclipseWorks.API\EclipseWorks.API\obj\Debug\net8.0\EclipseWorks.API.genruntimeconfig.cache
 C:\Users\jhona\Desktop\TESTE\EclipseWorks\EclipseWorks.API\EclipseWorks.API\obj\Debug\net8.0\ref\EclipseWorks.API.dll
+C:\Users\jhona\Desktop\TESTE\EclipseWorks\EclipseWorks.API\EclipseWorks.API\obj\Debug\net8.0\EclipseWorks.API.sourcelink.json

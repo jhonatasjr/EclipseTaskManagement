@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EclipseWorks.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0417415ae9ef2626ff0fc703da34ca2d75c6ca00")]
 [assembly: System.Reflection.AssemblyProductAttribute("EclipseWorks.Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EclipseWorks.Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

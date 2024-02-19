@@ -17,11 +17,11 @@ USER root
 RUN dotnet restore "./EclipseWorks.API/EclipseWorks.API.csproj"
 COPY . .
 WORKDIR "/src/EclipseWorks.API"
-RUN dotnet build "./EclipseWorks.API.csproj" -c %BUILD_CONFIGURATION% -o /app/build
+RUN dotnet build "./EclipseWorks.API.csproj" -c Release -o /app/build
 
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "./EclipseWorks.API.csproj" -c %BUILD_CONFIGURATION% -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "./EclipseWorks.API.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
