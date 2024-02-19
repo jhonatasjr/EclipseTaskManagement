@@ -13,4 +13,5 @@
 - Integração de ferramentas de monitoramento e observabilidade para coletar métricas de desempenho, logs e rastreamento de solicitações da API.
 - Expansão da cobertura de testes automatizados para incluir testes de integração.
 
-## Instalação
+## Execução
+- docker-compose up -d  
